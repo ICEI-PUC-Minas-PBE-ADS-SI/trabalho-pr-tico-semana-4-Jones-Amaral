@@ -80,11 +80,11 @@ footer {
 .banner button a:hover {
     color: white;
     background-color: #9c0000;
-
 }
 
 .banner button:hover {
     border-color: wheat;
+    color: aliceblue;
     background-color: #9c0000;
 }
 
