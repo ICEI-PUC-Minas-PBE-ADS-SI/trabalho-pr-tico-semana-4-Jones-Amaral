@@ -8,10 +8,10 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: João Vitor Alves Amaral
+- Matricula: 882594
+- Proposta de projeto escolhida: Catálogo de filmes
+- Breve descrição sobre seu projeto: Cronstrução de um site de streaming, em css puro primeiramente, aplicar o flex, grid e media queries e depois adicionar responsividade por meio do Bootstrap.
 
 ## Print da versão responsiva com CSS puro
 
