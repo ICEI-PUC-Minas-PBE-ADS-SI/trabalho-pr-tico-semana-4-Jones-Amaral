@@ -15,7 +15,8 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Print da versão responsiva com CSS puro
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print CSS Puro Desktop](public\img\css-desktop.png)
+![Print CSS Puro Mobile](public\img\css-mobile.png)
 
 ## Print da versão responsiva com Bootstrap
 
