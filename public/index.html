@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css\style.css">
     <meta property="og:title" content="NetFrix" />
     <meta property="og:image" content="/Net.png" />
+    <script src="https://kit.fontawesome.com/75f884762c.js" crossorigin="anonymous"></script>
 </head>
 
 
@@ -24,18 +25,32 @@
                 </ul>
             </div>
 
-            <nav>
+            <div class="icone-menu">
                 <input type="checkbox" id="menuToggle">
                 <label for="menuToggle" class="menu-icon">
-                    <i class="fa fa-bars"></i>
-                    <i class="fa fa-times-circle"></i></label>
+                    <i class="fa-solid fa-bars" style="color: #9c0000;"></i>
+                    <i class="fa fa-times-circle" style="color: #9c0000"></i></label>
                 <ul class="menu">
                     <li> <a href="#">Home</a></li>
                     <li> <a href="#">Quem Somos</a></li>
                     <li> <a href="#">Serviços</a></li>
                     <li> <a href="#">Contato</a></li>
                 </ul>
-            </nav>
+            </div>
+            <div class="icone-user">
+                <input type="checkbox" id="userToggle">
+                <label for="userToggle" class="menu-user">
+                    <i class="fa-solid fa-circle-user" style="color: #9c0000;"></i>
+                    <i class="fa fa-times-circle" style="color: #9c0000"></i></label>
+                <div class="user">
+                    <p>Insira seus dados para efetuar login</p>
+                    <form name="form_login" action="efetuar-login" method="post">
+                        Usuário: <input type="text" name="usuario" value=""> <br>
+                        Senha: <input type="password" name="senha" value=""> <br>
+                        <input class="botaook" type="submit" value="Ok">
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -67,7 +82,7 @@
     <main>
         <section>
             <a href="pag-filme.html" target="blank">
-                <img class="banner" src="https://picsum.photos/1900/600" alt="imagem-banner"></a>
+                <img class="banner" src="https://picsum.photos/1900/400" alt="imagem-banner"></a>
             <button class="botbanner"><a href="pag-filme.html">Assistir agora</a></button>
             <h2>Destaques</h2>
             <div class="container">
@@ -111,7 +126,6 @@
                     </p>
                 </div>
 
-            </div>
             </div>
         </section>
 
