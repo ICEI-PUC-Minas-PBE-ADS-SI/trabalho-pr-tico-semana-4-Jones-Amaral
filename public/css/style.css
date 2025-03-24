@@ -6,15 +6,8 @@ body {
 }
 
 /* Cabeçalho início */
-header nav .menu-principal ul {
-    display: flex;
-    align-items: center;
-}
-
 header .menu-principal ul a {
     text-decoration: none;
-    display: flex;
-    align-items: center;
     height: 100%;
     color: #9c0000;
     font-size: x-large;
@@ -27,20 +20,7 @@ header {
     height: fit-content;
 }
 
-
-
-header img {
-    float: left;
-    width: 60px;
-    margin-left: 25px;
-}
-
-.menu-principal {
-    float: left;
-}
-
 .menu-principal ul li {
-    margin-left: 20px;
     list-style-type: none;
 }
 header #menuToggle {
@@ -54,24 +34,12 @@ header #userToggle {
 /* Cabeçalho fim */
 
 /* Menu Lateral Início */
-aside {
-    width: 250px;
-    float: left;
-    background-color: #808080;
-    position: fixed;
-    height: 100%;
-    box-sizing: border-box;
-    vertical-align: center;
-    top: 0px;
-    left: 0px;
 
-}
 
 
 body aside ul li a {
     text-decoration: none;
     color: inherit;
-
 }
 
 body aside ul li {
@@ -82,27 +50,17 @@ body aside ul li {
     font-size: 25px;
     text-decoration: underline;
     text-decoration-color: black;
-}
-
-.categorias {
-    margin-right: 30px;
+    text-align: center;
 }
 
 .botaook {
     margin-top: 20px;
+    align-self: center;
 }
-.user 
+
 /* Menu Lateral Fim */
 
 /* Main */
-main {
-    margin-left: 250px;
-    max-width: 100%;
-}
-
-h1 {
-    text-align: center;
-}
 
 .banner {
     display: block;
@@ -115,6 +73,17 @@ top: -50px;
 left: 30px;
 }
 
+.loginInfo{
+    margin-top: 70px;
+}
+.comInfo{
+    margin-top: 50px;
+    text-align: center;
+}
+h1{
+
+    text-align: center;
+}
 h2 {
     color: #9c0000;
     margin-left: 15px;
@@ -153,9 +122,6 @@ main section p {
     width: 100%;
 }
 
-.rodape {
-    margin-left: 200px;
-}
 
 .rodape ul li {
     display: inline;
@@ -184,12 +150,8 @@ main section p {
         margin-left: 250px;
     }
 
-    main section {
-        margin-left: 250px;
-    }
     .menu li {
         list-style: none;
-        margin-left: 10px;
     }
     .menu-icon {
         display: none;
@@ -241,7 +203,10 @@ main section p {
     main {
         margin: 0px;
     }
-
+.categorias ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
     aside {
         display: none;
     }
@@ -285,7 +250,14 @@ main section p {
     .menu-icon i {
         font-size: 1.7em;
     }
-    .user{
+    .user-desktop{
+        display: none;
+        color: white;
+        align-items: center;
+        
+    }
+
+    .user-mobile{
         display: none;
         color: white;
         align-content: center;
@@ -361,7 +333,7 @@ main section p {
         display: block;
     }
 
-    #userToggle:checked ~ .user {
+    #userToggle:checked ~ .user-mobile {
         display: block;
         height: 100vw;
         background-color: rgba(0, 0, 0, 0)
