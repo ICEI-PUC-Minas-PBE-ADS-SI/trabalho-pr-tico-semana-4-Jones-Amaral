@@ -17,17 +17,68 @@
 
 <body>
     <header class="fixed-top bg-black w-100 ">
-        <nav class="d-flex justify-content-between align-items-center  float-start">
-            <img src="img\Logo-Net.png" alt="Logo Netfrix" style="width: 60px;">
-            <div class="menu-principal">
-                <ul class="d-flex align-items-center ps-4">
-                    <li class="pe-4 mt-3"><a href="index.html">Início</a></li>
-                    <li class="pe-4 mt-3"><a href="#">Filmes</a></li>
-                    <li class="pe-4 mt-3"><a href="#">Séries</a></li>
-                    <li class="pe-4 mt-3"><a href="#">Documentários</a></li>
-                </ul>
-            </div>
+        <div>
 
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light">
+                <div class="container-fluid fixed-top bg-black">
+                    <a class="navbar-brand" href="#"><img src="img\Logo-Net.png" alt="Logo Netfrix"
+                            style="width: 60px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-danger" aria-current="page" href="#">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-danger" href="#">Filmes</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-danger " href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Series
+                                </a>
+                                <ul class="dropdown-menu bg-black text-center">
+                                    <li><a class="dropdown-item text-danger" href="#">Ação</a></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Aventura</a></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Romance</a></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Época</a></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Comédia</a></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Drama</a></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Suspense</a></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Terror</a></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Policiais</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled text-danger" aria-disabled="true">Documentários</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Procure aqui..."
+                                aria-label="Search">
+                            <button type="button" class="btn btn-outline-danger">Procurar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <nav class="d-flex justify-content-between align-items-center  float-start">
+            <div class="d-none">
+                <img src="img\Logo-Net.png" alt="Logo Netfrix" style="width: 60px;">
+                <div class="menu-principal">
+                    <ul class="d-flex align-items-center ps-4">
+                        <li class="pe-4 mt-3"><a href="index.html">Início</a></li>
+                        <li class="pe-4 mt-3"><a href="#">Filmes</a></li>
+                        <li class="pe-4 mt-3"><a href="#">Séries</a></li>
+                        <li class="pe-4 mt-3"><a href="#">Documentários</a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="icone-menu">
                 <input type="checkbox" id="menuToggle">
                 <label for="menuToggle" class="menu-icon">
@@ -70,24 +121,22 @@
                 </div>
                 <div class="categorias">
                     <h1 class="comInfo">Comunidade</h1>
-                    <ul>
-                        <li><a href="#">Em Alta</a></li><br>
-                        <li><a href="#">Mais Recentes</a>
-                        </li><br>
-                        <li><a href="#">Originais</a>
-                        </li><br>
-                        <li><a href="#">Top 10</a>
-                        </li>
-                    </ul>
+                    <ul class="list-group list-group-flush ali">
+                        <a href="#"class="text-decoration-none"><li class="list-group-item text-danger">Em Alta</li></a>
+                        <a href="#"class="text-decoration-none"><li class="list-group-item text-danger">Mais Recentes</li></a>
+                        <a href="#"class="text-decoration-none"><li class="list-group-item text-danger">Originais</li></a>
+                        <a href="#"class="text-decoration-none"><li class="list-group-item text-danger">Top 10</li></a>
+                        <a href="#"class="text-decoration-none"><li class="list-group-item text-danger">Mais Vistos</li></a>
+                      </ul>
                 </div>
             </aside>
 
-            <main class="col-md-10">
+            <main class="col-md-10 mt-5">
                 <section>
                     <a href="pag-filme.html" target="blank">
                         <img class="banner" src="https://picsum.photos/1900/400" alt="imagem-banner">
                         <div class="botassis" style="position: relative;">
-                            <button type="button" class="btn btn-secondary position-absolute">Assistir Agora</button>
+                            <button type="button" class="btn btn-secondary position-absolute text-danger bg-secondary-subtle border border-danger border-2">Assistir Agora</button>
                         </div>
                     </a>
 
