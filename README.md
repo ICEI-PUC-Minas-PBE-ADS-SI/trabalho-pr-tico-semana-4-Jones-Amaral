@@ -21,4 +21,4 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 ## Print da versão responsiva com Bootstrap
 
 ![Print Bootstrap Desktop](public/img/bootstrap-desktop.png)
-![Print Bootstrap Mobile]()
+![Print Bootstrap Mobile](public/img/bootstrap-mobile.png)
